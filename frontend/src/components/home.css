@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
+.header{
+    display: flex;
+    background-color: white;
+    font-size: 20px;
+    /* box-shadow: 1px 2px lightgrey; */
+
+}
+.heading{
+    padding-left: 2vh;
+    padding-right: 63%;
+    padding-top: 5vh;
+
+}
+.header h2{
+    text-shadow: 2px 2px grey;
+    color:black;
+}
+.header form{
+    padding-top: 2vh;
+  
+}
+.header input[type="submit"]{
+    margin-left: 17vh;
+    box-shadow: 2px 2px black;
+    color: black;
+    border-color: black;
+
+}
+.header input[type="submit"]:hover{
+    background-color: lightgrey;
+    border-color: white;
+    box-shadow: 2px 2px grey;
+    color: white;
+}
+.header input[type="text"]{
+    width: 40vh;
+    margin-bottom: 2vh;
+}
+.postlst{
+    width: 40vh;
+    height: 50vh;
+    padding:2vh;
+    float: left;
+    margin: 2vh;
+    text-align: left;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px 3px lightgrey;
+    font-family: 'Hind', sans-serif;
+    overflow: auto;
+}
+.postlst h2{
+    text-align: center;
+}
+.postlst h4{
+    color: darkgreen;
+}
+.bodyy{
+  justify-content: center;
+  margin-top: 2vh;
+  padding-left: 2vh;
+}
+.nopost{
+    color: red;
+    margin-left: 10vh;
+}
+
